@@ -1,0 +1,17 @@
+As per your wish, I have compile files in one Main.m program.
+
+1) Run <data = getFederalistData> in shell then,
+2) Run <final = Main(data)>
+You'll get SVM boundary image automatically and it also prints compare matrix to compare
+your Test values and predicted results.
+
+variable "final" has all you want.
+final = {
+	X,
+	y,
+	Ytest,
+	biases, weights,
+	output_predictions,
+	compare or confusion matrix}
+
+
